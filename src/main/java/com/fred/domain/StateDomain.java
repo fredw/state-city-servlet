@@ -1,0 +1,14 @@
+package com.fred.domain;
+
+public class StateDomain extends AbstractDomain {
+
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}

@@ -1,0 +1,13 @@
+<Context>
+    <Resource
+        type="javax.sql.DataSource"
+        name="jdbc/senac-state-city"
+        username="root"
+        password="root"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/senac-state-city?useSSL=false"
+        auth="Container"
+        maxActive="20"
+        maxIdle="10"
+    />
+</Context>
